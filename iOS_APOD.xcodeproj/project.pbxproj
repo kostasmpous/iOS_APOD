@@ -56,15 +56,31 @@
 		3884C8DF2AE116C6000AA9C4 /* iOS_APOD */ = {
 			isa = PBXGroup;
 			children = (
+				3884C8F52AE1171F000AA9C4 /* Helpers */,
+				3884C8F42AE116FF000AA9C4 /* VViewController */,
 				3884C8E02AE116C6000AA9C4 /* AppDelegate.swift */,
 				3884C8E22AE116C6000AA9C4 /* SceneDelegate.swift */,
-				3884C8E42AE116C6000AA9C4 /* ViewController.swift */,
 				3884C8E62AE116C6000AA9C4 /* Main.storyboard */,
 				3884C8E92AE116CA000AA9C4 /* Assets.xcassets */,
 				3884C8EB2AE116CA000AA9C4 /* LaunchScreen.storyboard */,
 				3884C8EE2AE116CA000AA9C4 /* Info.plist */,
 			);
 			path = iOS_APOD;
+			sourceTree = "<group>";
+		};
+		3884C8F42AE116FF000AA9C4 /* VViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3884C8E42AE116C6000AA9C4 /* ViewController.swift */,
+			);
+			path = VViewController;
+			sourceTree = "<group>";
+		};
+		3884C8F52AE1171F000AA9C4 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
